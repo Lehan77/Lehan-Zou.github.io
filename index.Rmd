@@ -1,0 +1,29 @@
+---
+title: "Lehan Zou Personal Website"
+output: 
+  html_document:
+    toc: true
+---
+
+### ME
+Hi! My name is Lehan Zou. You can call me Chloe. I was born and raised in China and came to US for my undergraduate college since 2019. I'm a capricorn and my MBTI is ENFP! I consider myself to be a very energetic and optimistic person who always loves to make new friends.
+
+
+This is me under Taylor Swift's new album cover.
+![](images/me.jpg)
+
+
+### My Cat
+
+I have a cat named seven and she is currently 3 years old.
+![](images/seven.jpg)
+
+
+### My Dog
+
+What's more, I'm currently fostering a cute and sweet doggy named Laura.
+![](images/laura.jpg)
+
+
+## Here's more about me on the academic side
+[About me](about.html)

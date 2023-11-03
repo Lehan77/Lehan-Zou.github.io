@@ -1,0 +1,53 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r}
+library(flexdashboard)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+```
+
+```{r}
+data("instacart")
+
+data = instacart |> 
+  select(add_to_cart_order, reordered, order_number, days_since_prior_order, aisle, department) |>
+  filter(department == "bakery")
+```
+
+Column {data-width=400}
+------------------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data %>%
+  plot_ly(x = ~add_to_cart_order, y = ~order_number, color = ~aisle,
+            type = "scatter", mode = "markers")
+```
+
+Column {data-width=300}
+------------------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+data %>%
+  plot_ly(x = ~aisle, y = ~order_number, color = ~aisle,
+            type = "box", colors = "viridis")
+```
+
+
+### Chart C
+
+```{r}
+data %>%
+  plot_ly(x = ~aisle, y = ~days_since_prior_order, color = ~aisle,
+            type = "bar", colors = "viridis")
+```

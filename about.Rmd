@@ -1,0 +1,45 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Lehan Zou
+## Education Experience
+### University of California, Los Angeles
+* B.S. Statistics
+* Relevant Coursework: Applied Numerical Methods, Linear Models, Introduction to Data Analysis and Regression, Programming with R, Python Applications, Ordinary Differential Equation, Introduction to Probability
+
+### Columbia University
+
+## Research Experience
+### Junction of Statistics and Biology
+* Compiled the Vignette of the R package, implemented R package for a new method called scGTM based on the existing python work 
+
+* Added a Gaussian distribution in the main function to increase an option for users 
+
+* Identified the performance of each distribution based on the tests of the coverage probability 
+
+* Participated weekly lab meetings and reported progress of the responsible work
+
+## Project Experience
+### Winning Proportion of College Basketball Teams in the US               
+* Created a multiple linear regression model to predict the winning proportion using college basketball data in the US
+* Identified the optimal predictors by utilizing a dataset that consists of 21 predictors and 2000 observations of different types of training data
+* Placed 1st on the leaderboard with an R2 value of 0.82626 in the class Kaggle competition
+
+### Penguins Classification Problem
+* Established three machine learning models (Random Forest, Support Vector Machines and Logistic Regression) for the classification of penguins according to specific features, including culmen length, culmen depth and sex
+* Preprocessed and cross-validated data related to several features, illustrated their relations using histograms, scatterplots and tables, and selected the features for classification based on data analysis
+* Evaluated the performance of each machine learning model using indicators such as precision, recall, and f-1 score, compared and found the most efficient model with an accuracy of 0.98
+
+### Travel Recommendation System Website 
+* design and develop an engaging and user-friendly website that enables travelers to plan their trips based on their preferred destinations and interests
+* utilized a range of cutting-edge technologies and tools, including the Google Maps API and web scraping techniques
+
+## Skills
+* Programming Languages: Python, R Studio, C++, Java
+
+
